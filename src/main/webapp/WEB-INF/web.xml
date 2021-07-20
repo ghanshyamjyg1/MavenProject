@@ -5,7 +5,6 @@
          version="3.0">
 
   <display-name>Customer Add Display </display-name>
-
   <context-param>
     <param-name>contextConfigLocation</param-name>
     <param-value>/WEB-INF/spring-servlet.xml</param-value>
@@ -20,7 +19,6 @@
     </servlet-class>
     <load-on-startup>1</load-on-startup>
   </servlet>
-
   <servlet-mapping>
     <servlet-name>spring</servlet-name>
     <url-pattern>/</url-pattern>
